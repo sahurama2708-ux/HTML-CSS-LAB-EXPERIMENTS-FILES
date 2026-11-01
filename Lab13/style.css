@@ -1,0 +1,11 @@
+/* Styles from centred-cards.html */
+.row { display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap; min-height: 300px; }
+    .card { width: 180px; padding: 20px; text-align: center; border: 1px solid #999; border-radius: 10px; background: #f1f5f9; }
+
+/* Styles from nav-flex.html */
+nav { display: flex; gap: 24px; background: #222; padding: 16px; }
+    nav a { color: white; text-decoration: none; }
+
+/* Styles from wrapping-cards.html */
+.cards { display: flex; flex-wrap: wrap; gap: 16px; }
+    .card { flex: 1 1 180px; padding: 20px; border: 1px solid #777; border-radius: 10px; background: #f7f7ff; }

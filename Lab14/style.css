@@ -1,0 +1,20 @@
+/* Styles from dashboard-areas.html */
+.dashboard {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      grid-template-areas: "header header" "sidebar main" "footer footer";
+      gap: 10px;
+    }
+    .header { grid-area: header; }
+    .sidebar { grid-area: sidebar; }
+    .main { grid-area: main; min-height: 180px; }
+    .footer { grid-area: footer; }
+    .dashboard > div { padding: 20px; background: #e2e8f0; border: 1px solid #475569; }
+
+/* Styles from gallery.html */
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+    .photo { min-height: 120px; display: grid; place-items: center; background: #e0f2fe; border: 1px solid #0284c7; }
+
+/* Styles from grid-first.html */
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+    .box { background: #dbeafe; padding: 30px; text-align: center; border: 1px solid #1d3557; }

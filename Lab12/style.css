@@ -1,0 +1,16 @@
+/* Styles from box-model.html */
+.box { width: 200px; padding: 20px; border: 5px solid navy; margin: 15px; background: lightblue; }
+    .content-box { box-sizing: content-box; }
+    .border-box { box-sizing: border-box; }
+
+/* Styles from card.html */
+.card {
+      background-color: #eaf4f4;
+      border: 2px solid #1d3557;
+      border-radius: 12px;
+      padding: 16px;
+      max-width: 320px;
+    }
+
+/* Styles from scroll.html */
+.scroll-box { height: 120px; overflow: auto; border: 2px solid #333; padding: 10px; }

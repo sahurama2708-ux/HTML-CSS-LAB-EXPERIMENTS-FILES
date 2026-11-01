@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML & CSS Practical - Lab 8</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 24px; color: #222; }
+    .practical-task { padding: 18px; margin: 18px 0; border: 1px solid #d5dbe3; border-radius: 10px; }
+    .practical-task h2 { color: #1d3557; }
+    img { max-width: 100%; }
+    table { border-collapse: collapse; }
+    th, td { padding: 8px 12px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>HTML & CSS Practical - Lab 8</h1>
+    <p><strong>Name:</strong> Rama Sahu &nbsp; <strong>Roll No.:</strong> YOUR_ROLL_NUMBER</p>
+  </header>
+
+  <section class="practical-task" id="task-1">
+    <h2>Task 1: Choices</h2>
+    <h1>Choose Your Details</h1>
+  <form>
+    <p>Gender:</p>
+    <label><input type="radio" name="gender" value="Female"> Female</label>
+    <label><input type="radio" name="gender" value="Male"> Male</label>
+    <p><label for="course">Course:</label>
+      <select id="course" name="course">
+        <option value="BCA">BCA</option>
+        <option value="B.Tech">B.Tech</option>
+      </select>
+    </p>
+  </form>
+  </section>
+
+  <section class="practical-task" id="task-2">
+    <h2>Task 2: Required Sign Up</h2>
+    <h1>Sign Up</h1>
+  <form>
+    <p><label for="full-name">Full name:</label>
+      <input type="text" id="full-name" name="fullName" placeholder="Enter your full name" required></p>
+    <p><label for="email">Email:</label>
+      <input type="email" id="email" name="email" required></p>
+    <button type="submit">Submit</button>
+  </form>
+  </section>
+
+  <section class="practical-task" id="task-3">
+    <h2>Task 3: Sign Up</h2>
+    <h1>Sign Up</h1>
+  <form method="post" action="thanks.html">
+    <p><label for="full-name">Full name:</label>
+      <input type="text" id="full-name" name="fullName"></p>
+    <p><label for="email">Email:</label>
+      <input type="email" id="email" name="email"></p>
+    <p><label for="password">Password:</label>
+      <input type="password" id="password" name="password"></p>
+    <button type="submit">Sign Up</button>
+  </form>
+  </section>
+</body>
+</html>

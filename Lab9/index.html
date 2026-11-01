@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML & CSS Practical - Lab 9</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 24px; color: #222; }
+    .practical-task { padding: 18px; margin: 18px 0; border: 1px solid #d5dbe3; border-radius: 10px; }
+    .practical-task h2 { color: #1d3557; }
+    img { max-width: 100%; }
+    table { border-collapse: collapse; }
+    th, td { padding: 8px 12px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>HTML & CSS Practical - Lab 9</h1>
+    <p><strong>Name:</strong> Rama Sahu &nbsp; <strong>Roll No.:</strong> YOUR_ROLL_NUMBER</p>
+  </header>
+
+  <section class="practical-task" id="task-1">
+    <h2>Task 1: Accessible Marks Table</h2>
+    <table border="1">
+    <caption>Marks of Class A</caption>
+    <thead><tr><th scope="col">Name</th><th scope="col">Maths</th><th scope="col">Science</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">Asha</th><td>78</td><td>85</td></tr>
+      <tr><th scope="row">Rohan</th><td>64</td><td>70</td></tr>
+    </tbody>
+  </table>
+  </section>
+
+  <section class="practical-task" id="task-2">
+    <h2>Task 2: Marks Average</h2>
+    <table border="1">
+    <caption>Marks of Class A</caption>
+    <thead><tr><th>Name</th><th>Maths</th><th>Science</th></tr></thead>
+    <tbody>
+      <tr><td>Asha</td><td>78</td><td>85</td></tr>
+      <tr><td>Rohan</td><td>64</td><td>70</td></tr>
+    </tbody>
+    <tfoot><tr><th>Class average</th><td>71</td><td>77.5</td></tr></tfoot>
+  </table>
+  </section>
+
+  <section class="practical-task" id="task-3">
+    <h2>Task 3: Marks</h2>
+    <table border="1">
+    <caption>Marks of Class A</caption>
+    <thead><tr><th>Name</th><th>Maths</th><th>Science</th></tr></thead>
+    <tbody>
+      <tr><td>Asha</td><td>78</td><td>85</td></tr>
+      <tr><td>Rohan</td><td>64</td><td>70</td></tr>
+      <tr><td>Neha</td><td>91</td><td>88</td></tr>
+    </tbody>
+  </table>
+  </section>
+</body>
+</html>
